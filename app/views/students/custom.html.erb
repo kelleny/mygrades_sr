@@ -2,16 +2,16 @@
   <%= form_tag cutoff_path do %>    
     <%=hidden_field_tag "plus_minus", @plusminus %>
     <th>A/A- minimum<th>
-    <input type = "decimal" name = "Acut">
+    <input type = "decimal" name = "Acut" id="Acut">
     <br />
     <th>B/B- minimum<th>
-    <input type = "decimal" name = "Bcut">
+    <input type = "decimal" name = "Bcut" id="Bcut">
     <br />
     <th>C/C- minimum<th>
-    <input type = "decimal" name = "Ccut">
+    <input type = "decimal" name = "Ccut" id="Ccut">
     <br />
     <th>D/D- minimum<th>
-    <input type = "decimal" name = "Dcut">
+    <input type = "decimal" name = "Dcut" id="Dcut">
     <br />
     <br />
     <%= submit_tag "Submit" %>
