@@ -1,3 +1,4 @@
+#Adding total score column
 class AddTotalScoreToStudents < ActiveRecord::Migration
   def change
     add_column :students, :total_score, :decimal
